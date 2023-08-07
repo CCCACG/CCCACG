@@ -199,9 +199,9 @@ The code file in **RQ2/(commercial AI Code generator name)/(programming language
 
 Detailed information is listed as follow:
 
-- **NameChange**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **identifiers name change **transformation to it.
+- **NameChange**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **identifiers name change** transformation to it.
 - **Parameter Order**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **parameter order change** transformation to it.
-- **Paraphrase **: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **comment paraphrase **transformation to it.
+- **Paraphrase **: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **comment paraphrase** transformation to it.
 
 
 
