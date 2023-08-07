@@ -180,7 +180,7 @@ Python
 
 ## RQ1
 
-The code files in **RQ1/(Commercial AI Code generator Name)/(programming language)/(code files)** are some interesting cases in our RQ1 experiment. The specific rules for naming these code files are as follows:
+The code files in **RQ1/(commercial AI Code generator name)/(programming language)/(code files)** are some interesting cases in our RQ1 experiment. The specific rules for naming these code files are as follows:
 
 - **Type-1 Case**: The two code fragments in this code file are classified as Type-1 clone.
 - **Type-2 Case**: The two code fragments in this code file are classified as Type-2 clone.
@@ -195,7 +195,7 @@ The code files in **RQ1/(Commercial AI Code generator Name)/(programming languag
 
 ## RQ2
 
-The code file in **RQ2/(Commercial AI Code generator Name)/(programming language)/(code files)** are some cases in our RQ2 experiment. These code files are named according to their transformation rules.
+The code file in **RQ2/(commercial AI Code generator name)/(programming language)/(code files)** are some cases in our RQ2 experiment. These code files are named according to their transformation rules.
 
 Detailed information is listed as follow:
 
@@ -209,6 +209,6 @@ Detailed information is listed as follow:
 
 The markdown **RQ3/Methodology.md** contains detailed information about how we convert one code fragment into a regular expression. 
 
-The code file **RQ3/example/prompt_00491.java **is an example search code file. 
+The code file **RQ3/example/prompt_00491.java** is an example search code file. 
 
 The contents of **RQ3/example/search_results/** are the results of searching through GitHub Search after transforming our example code into a regular expression.
