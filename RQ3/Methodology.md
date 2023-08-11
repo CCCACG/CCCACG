@@ -15,7 +15,7 @@ public void maj_background()
 
 
 
-**Step 1, blind function using NiCad:**
+**Step 1: blinding the function using NiCad**
 
 To detect potential clone pairs, Nicad will blind the source code into the following format:
 
@@ -29,9 +29,10 @@ public void x () {
 
 
 
-**Step 2, convert the bilind function into regular expression:**
+**Step 2: converting the blind function into a regular expression**
 
-Based on the function after blinding, we have the following tranformation rules:
+We have the following tranformation rules to covert the blind function into a regular expression:
+
 
 ```python
 def convert_to_reg(content):
@@ -58,7 +59,7 @@ def convert_to_reg(content):
 
 
 
-After applying these rules, we can get the following search statement:
+After applying these rules to the blind function, we can get the following search statement:
 
 ```
 /public void [^ .;()]+\(\)(\s)*\{(\s)*for \(int [^ .;()]+ = [0-9]+; [^ .;()]+ < [^ .;()]+; [^ .;()]+\+\+\)(\s)*\{(\s)*[\s]+[^ .;()]+\[[^ .;()]+\]\.[^ .;()]+\(\);[\s]+(\s)*\}(\s)*(\s)*\}/ language:java
@@ -66,4 +67,4 @@ After applying these rules, we can get the following search statement:
 
 
 
-With this statement, we can find potential unfound clone pairs by utlizing GitHub Search.
+With this search statement, we can find potentially unfound clone pairs by utilizing GitHub Search.
