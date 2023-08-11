@@ -1,4 +1,4 @@
-## Addtional Experimental Results
+## Additional Experimental Results
 
 ### The variance of clone results
 
