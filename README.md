@@ -1,12 +1,10 @@
-## Experiment Evaluation
+## Addtional Experimental Results
 
+### The variance of clone results
 
+#### GitHub Copilot: Java
 
-### GitHub Copilot Variance
-
-Java
-
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.01 | 0.01 | 0.00 | 0.02 | 0.05 |  0.19  |
 |      2-4      | 0.00 | 0.01 | 0.00 | 0.01 | 0.03 |  0.09  |
@@ -21,13 +19,13 @@ Java
 |   1024-2048   | 0.10 | 0.01 | 0.00 | 0.04 | 0.05 |  0.26  |
 |   2048-4096   | 0.68 | 0.07 | 0.02 | 0.22 | 0.22 |  0.30  |
 |   4096-8192   | 0.22 | 0.07 | 0.01 | 0.02 | 0.10 |  0.50  |
-| 8192-infinity | 0.17 | 0.01 | 0.02 | 0.03 | 0.10 |  0.60  |
+|    8192-inf   | 0.17 | 0.01 | 0.02 | 0.03 | 0.10 |  0.60  |
 
 
 
-C
+#### GitHub Copilot: C
 
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.00 | 0.04 | 0.03 | 0.01 | 0.02 |  0.28  |
 |      2-4      | 0.04 | 0.02 | 0.00 | 0.01 | 0.07 |  0.29  |
@@ -42,13 +40,13 @@ C
 |   1024-2048   | 0.07 | 0.05 | 0.01 | 0.08 | 0.25 |  0.91  |
 |   2048-4096   | 0.00 | 0.01 | 0.00 | 0.01 | 0.03 |  0.33  |
 |   4096-8192   | 0.00 | 0.01 | 0.00 | 0.00 | 0.03 |  0.43  |
-| 8192-infinity | 0.00 | 0.00 | 0.00 | 0.01 | 0.06 |  0.08  |
+|    8192-inf   | 0.00 | 0.00 | 0.00 | 0.01 | 0.06 |  0.08  |
 
 
 
-Python
+#### GitHub Copilot: Python
 
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.00 | 0.00 | 0.00 | 0.02 | 0.15 |  0.36  |
 |      2-4      | 0.00 | 0.00 | 0.00 | 0.01 | 0.05 |  0.37  |
@@ -63,15 +61,13 @@ Python
 |   1024-2048   | 0.01 | 0.03 | 0.00 | 0.02 | 0.06 |  0.41  |
 |   2048-4096   | 0.00 | 0.01 | 0.00 | 0.05 | 0.17 |  0.29  |
 |   4096-8192   | 0.00 | 0.00 | 0.00 | 0.01 | 0.13 |  0.14  |
-| 8192-infinity | 0.01 | 0.01 | 0.00 | 0.02 | 0.05 |  0.32  |
+|    8192-inf   | 0.01 | 0.01 | 0.00 | 0.02 | 0.05 |  0.32  |
 
 
 
-### Amazon CodeWhisperer Variance
+#### Amazon CodeWhisperer: Java
 
-Java
-
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.09  |
 |      2-4      | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.01  |
@@ -86,13 +82,13 @@ Java
 |   1024-2048   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
 |   2048-4096   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
 |   4096-8192   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
-| 8192-infinity | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
+|    8192-inf   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
 
 
 
-Python
+#### Amazon CodeWhisperer: Python
 
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.00  |
 |      2-4      | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.21  |
@@ -107,15 +103,13 @@ Python
 |   1024-2048   | 0.00 | 0.01 | 0.00 | 0.00 | 0.00 |  1.42  |
 |   2048-4096   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.02  |
 |   4096-8192   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.01  |
-| 8192-infinity | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.92  |
+|    8192-inf   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  0.92  |
 
 
 
-### GitHub Copilot Chat Variance
+#### GitHub Copilot Chat: Java
 
-Java
-
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.02 | 0.02 | 0.00 | 0.02 | 0.07 |  0.65  |
 |      2-4      | 0.01 | 0.00 | 0.00 | 0.02 | 0.05 |  0.43  |
@@ -130,13 +124,13 @@ Java
 |   1024-2048   | 0.08 | 0.03 | 0.00 | 0.00 | 0.12 |  0.45  |
 |   2048-4096   | 0.05 | 0.00 | 0.02 | 0.11 | 0.04 |  1.10  |
 |   4096-8192   | 0.01 | 0.02 | 0.00 | 0.05 | 0.18 |  0.96  |
-| 8192-infinity | 0.09 | 0.03 | 0.02 | 0.04 | 0.14 |  0.58  |
+|    8192-inf   | 0.09 | 0.03 | 0.02 | 0.04 | 0.14 |  0.58  |
 
 
 
-C
+#### GitHub Copilot Chat: C
 
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.01 | 0.00 | 0.00 | 0.03 | 0.10 |  0.94  |
 |      2-4      | 0.01 | 0.01 | 0.00 | 0.02 | 0.06 |  2.15  |
@@ -151,13 +145,13 @@ C
 |   1024-2048   | 0.00 | 0.02 | 0.00 | 0.01 | 0.07 |  0.88  |
 |   2048-4096   | 0.00 | 0.01 | 0.00 | 0.04 | 0.10 |  0.69  |
 |   4096-8192   | 0.02 | 0.00 | 0.01 | 0.03 | 0.07 |  0.63  |
-| 8192-infinity | 0.00 | 0.00 | 0.00 | 0.02 | 0.07 |  0.53  |
+|    8192-inf   | 0.00 | 0.00 | 0.00 | 0.02 | 0.07 |  0.53  |
 
 
 
-Python
+#### GitHub Copilot Chat: Python
 
-|               |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
+|   Interval    |  T1  |  T2  | VST3 | ST3  | MT3  | WT3/T4 |
 | :-----------: | :--: | :--: | :--: | :--: | :--: | :----: |
 |      0-2      | 0.00 | 0.01 | 0.00 | 0.03 | 0.15 |  0.33  |
 |      2-4      | 0.01 | 0.01 | 0.01 | 0.02 | 0.10 |  0.38  |
@@ -172,7 +166,7 @@ Python
 |   1024-2048   | 0.00 | 0.01 | 0.00 | 0.02 | 0.12 |  0.54  |
 |   2048-4096   | 0.00 | 0.01 | 0.00 | 0.01 | 0.20 |  0.57  |
 |   4096-8192   | 0.00 | 0.01 | 0.00 | 0.03 | 0.09 |  0.55  |
-| 8192-infinity | 0.01 | 0.03 | 0.00 | 0.07 | 0.14 |  0.58  |
+|    8192-inf   | 0.01 | 0.03 | 0.00 | 0.07 | 0.14 |  0.58  |
 
 
 
@@ -180,35 +174,35 @@ Python
 
 ## RQ1
 
-The code files in **RQ1/(commercial AI Code generator name)/(programming language)/(code files)** are some interesting cases in our RQ1 experiment. The specific rules for naming these code files are as follows:
+The code files in **RQ1/(commercial AI code generator name)/(programming language)/(code file)** are some interesting cases in our RQ1 experiment. The rules for naming these code files are as follows:
 
-- **Type-1 Case**: The two code fragments in this code file are classified as Type-1 clone.
-- **Type-2 Case**: The two code fragments in this code file are classified as Type-2 clone.
-- **VST-3 Case**: The two code fragments in this code file are classified as Very-Strongly Type-3(VST-3) clone.
-- **ST-3 Case**: The two code fragments in this code file are classified as Strongly Type-3(ST-3) clone.
-- **MT-3 Case**: The two code fragments in this code file are classified as Moderately Type-3(MT-3) clone.
-- **WT3&T4 Case**: The two code fragments in this code file are classified as Weakly Type-3/Type-4 clone.
+- **Type-1 Case**: The two code fragments in this code file are classified as the Type-1 (T1) clone.
+- **Type-2 Case**: The two code fragments in this code file are classified as the Type-2 (T2) clone.
+- **VST-3 Case**: The two code fragments in this code file are classified as the Very-Strongly Type-3 (VST-3) clone.
+- **ST-3 Case**: The two code fragments in this code file are classified as the Strongly Type-3 (ST-3) clone.
+- **MT-3 Case**: The two code fragments in this code file are classified as the Moderately Type-3 (MT-3) clone.
+- **WT3&T4 Case**: The two code fragments in this code file are classified as the Weakly Type-3/Type-4 (WT3/T4) clone.
 
-​	Notice that the code fragment in one file are divided into two parts. The first part is source code in our dataset, while the second part is the synthesized code generated by AI code generators.
+
+Note that the first code fragment in each code file is the source code in our dataset, while the second code fragment in each code file is the code generated by AI code generators.
+
 
 
 
 ## RQ2
 
-The code file in **RQ2/(commercial AI Code generator name)/(programming language)/(code files)** are some cases in our RQ2 experiment. These code files are named according to their transformation rules.
+The code files in **RQ2/(commercial AI code generator name)/(programming language)/(code file)** are some cases in our RQ2 experiment. These code files are named according to their transformation rules:
 
-Detailed information is listed as follow:
-
-- **NameChange**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **identifiers name change** transformation to it.
-- **Parameter Order**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **parameter order change** transformation to it.
-- **Paraphrase**: This code file contains two parts, the first part is the original prompt and the other part is the prompt generated after applying **comment paraphrase** transformation to it.
+- **NameChange**: This code file contains two parts. The first part is the original prompt, while the second part is the prompt generated by applying **identifier name change** transformation to the original prompt.
+- **ParameterOrder**: This code file contains two parts. The first part is the original prompt, while the second part is the prompt generated by applying **parameter order change** transformation to the original prompt.
+- **Paraphrase**: This code file contains two parts. The first part is the original prompt, while the second part is the prompt generated by applying **comment paraphrasing** transformation to the original prompt.
 
 
 
-## **RQ3**
+## RQ3
 
-The markdown **RQ3/Methodology.md** contains detailed information about how we convert one code fragment into a regular expression. 
+The Markdown file **RQ3/Methodology.md** contains detailed information about how we convert one code fragment into a regular expression. 
 
-The code file **RQ3/example/prompt_00491.java** is an example search code file. 
+The code file **RQ3/example/prompt_00491.java** is an example code file that we use to search for its undiscovered clone with GitHub Search. 
 
-The contents of **RQ3/example/search_results/** are the results of searching through GitHub Search after transforming our example code into a regular expression.
+The folder **RQ3/example/search_result/** contains the search results from GitHub Search, after transforming our example code into a regular expression to search.
