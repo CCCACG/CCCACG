@@ -29,6 +29,6 @@ The code files in **RQ2/(commercial AI code generator name)/(programming languag
 
 The Markdown file **RQ3/Methodology.md** contains detailed information about how we convert one code fragment into a regular expression. 
 
-The code file **RQ3/example/prompt_00491.java** is an example code file that we use to search for its undiscovered clone with GitHub Search. 
+The code file **RQ3/example/prompt_01741.java** is an example code file that we use to search for its undiscovered clone with GitHub Search. 
 
 The folder **RQ3/example/search_result/** contains the search results from GitHub Search, after transforming our example code into a regular expression to search.
