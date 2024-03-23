@@ -1,5 +1,3 @@
-## Additional Experimental Results
-
 ## RQ1
 
 The code files in **RQ1/(commercial AI code generator name)/(programming language)/(code file)** are some interesting cases in our RQ1 experiment. The rules for naming these code files are as follows:
